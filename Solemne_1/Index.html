@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+    <!--Encabezado de la Pagina-->
+  <head>
+    <!-- UTF-8 para caracteres especiales y wieport responsive mode -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Barra necesaria para obtener css desde bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!--Fuentes de google fonts para el contenido-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet"> 
+    
+    <title>ClavisteV</title>
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- Cargando Validaddor -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+    <script src="js/contacto.js"></script>
+   
+
+
+  </head>
+  <!--Inicio del cuerpo de pagina (BODY)-->
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">ClavisteV</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Alineado a la Derecha -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item px-3">
+                <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item px-3">
+                <a class="nav-link" href="#planesmoviles">Planes Moviles</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="#planeshogar">Planes Hogar</a>
+                </li>
+                <li class="nav-item px-3">
+                <a class="nav-link text-gold" href="#contactoform">Contacto</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Fin del NAV-->
+    <!--Seccion 1 Carrousel-->
+      <section id="slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/slider_01.jpg" alt="First slide">
+                <div class="carousel-caption">
+                    <h3 class="d-block">ELEGANCIA Y ESTILO</h3>
+                    <p class="lead d-none d-sm-block">"que elegancia la de francia"</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/slider_02.jpg" alt="Second slide">
+                <div class="carousel-caption">
+                    <h3 class="d-block">EQUIPOS A PRUEBA DE TODO</h3>
+                    <p class="lead d-none d-sm-block">"te durara mas que tu ex"</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/slider_03.jpg" alt="Third slide">
+                <div class="carousel-caption">
+                    <h3 class="d-block">RENOVANDO LA TECNOLOGIA</h3>
+                    <p class="lead d-none d-sm-block">"pasar tiempos de calida"</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+      </section>
+    <!--Seccion 2 Planes Moviles-->  
+      <section class="bg-ligth-grey">
+          <div class="container">
+              <h2 id="planesmoviles">PLANES MOVILES</h2>
+              <p class="lead text-muted">Por eso, desde ahora todos los planes desde $9.990 con el Doble de Gigas y el plan de $13.990 con GIGAS LIBRES por 1 año.</p>
+              <div class="row mt-6">
+                  <div class="col-md-4">
+                      <div class="card boder-0 mb-4">
+                          <div class="card-body p-5">
+                              <h3><span class="badge badge-secondary bg-dark text-ligth mb-2">15 + 15 GIGAS</span></h3>
+                              <p class="lead mb-4">Nuevo Plan Rayapaint</p>
+                              <h2 class="mb-0">$9.990.-</h2>
+                              <p class="lead text-muted mb-4">Cargo fijo Mensual</p>
+                              <p class="lead font-weigth-bold">Navega como Quieras</p>
+                              <ul class="lead mb-5">
+                                  <li class="mb-2 text-muted">1.000.- Minutos</li>
+                                  <li class="mb-2 text-muted">Whatsapp Ilimitado</li>
+                                  <li class="mb-2 text-muted">Redes Sociales Libres</li>
+                              </ul>
+                              <a href="#" class="btn btn-secondary">Contratar</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card bg-dark boder-0 mb-4">
+                        <div class="card-body p-5">
+                            <h3><span class="badge badge-secondary bg-gold text-dark mb-2">30 + 30 GIGAS</span></h3>
+                            <p class="lead mb-4 text-light">Nuevo Plan Castle</p>
+                            <h2 class="mb-0 text-light">$11.990.-</h2>
+                            <p class="lead text-muted mb-4">Cargo fijo Mensual</p>
+                            <p class="lead text-light font-weigth-bold">Navega como Quieras</p>
+                            <ul class="lead mb-5">
+                                <li class="mb-2 text-muted">2.000.- Minutos</li>
+                                <li class="mb-2 text-muted">Whatsapp Ilimitado</li>
+                                <li class="mb-2 text-muted">Vivo Duoc Gratis</li>
+                            </ul>
+                            <a href="#" class="btn btn-gold">Contratar</a>
+                        </div>
+                    </div> 
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card boder-0 mb-4">
+                        <div class="card-body p-5">
+                            <h3><span class="badge badge-secondary bg-dark text-ligth mb-2">40 + 40 GIGAS</span></h3>
+                            <p class="lead mb-4">Nuevo Plan Pablito</p>
+                            <h2 class="mb-0">13.990.-</h2>
+                            <p class="lead text-muted mb-4">Cargo fijo Mensual</p>
+                            <p class="lead font-weigth-bold">Navega como Quieras</p>
+                            <ul class="lead mb-5">
+                                <li class="mb-2 text-muted">3.000.- Minutos</li>
+                                <li class="mb-2 text-muted">Whatsapp Ilimitado</li>
+                                <li class="mb-2 text-muted">AVA y VIVO Duoc Gratis</li>
+                            </ul>
+                            <a href="#" class="btn btn-secondary">Contratar</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </section>
+    <!--Seccion 3 Planes Hogar-->
+    <section class="bg-ligth-blue">
+        <div class="container">
+            <h2 id="planeshogar">PLANES HOGAR</h2>
+            <p class="lead text-muted">Navega como quieras y cuando quieras con los Planes de Internet Móvil Hogar desde $9.990.</p>
+            <div class="row mt-6">
+                <div class="col-md-4">
+                    <div class="card boder-0 mb-4">
+                        <div class="card-body p-5">
+                            <h3><span class="badge badge-secondary bg-dark text-ligth mb-2">HOGAR 40 GIGAS</span></h3>
+                            <p class="lead mb-4">Si te sobran gigas , usalos el proximo mes</p>
+                            <h2 class="mb-0">$12.990.-</h2>
+                            <p class="lead text-muted mb-4">Cargo fijo Mensual</p>
+                            <p class="lead font-weigth-bold">Combina los datos moviles y hogar</p>
+                            <ul class="lead mb-5">
+                                <li class="mb-2 text-muted">40 GIGAS</li>
+                                <li class="mb-2 text-muted">Trafico Ilimitado</li>
+                                <li class="mb-2 text-muted">Play video y Yotube incluido</li>
+                            </ul>
+                            <a href="#" class="btn btn-secondary">Contratar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card bg-dark boder-0 mb-4">
+                      <div class="card-body p-5">
+                          <h3><span class="badge badge-secondary bg-gold text-dark mb-2">HOGAR 60 GIGAS</span></h3>
+                          <p class="lead mb-4 text-light">Si te sobran gigas , usalos el proximo mes</p>
+                          <h2 class="mb-0 text-light">$13.990.-</h2>
+                          <p class="lead text-muted mb-4">Cargo fijo Mensual</p>
+                          <p class="lead text-light font-weigth-bold">Combina los datos moviles y hogar</p>
+                          <ul class="lead mb-5">
+                              <li class="mb-2 text-muted">60 GIGAS</li>
+                              <li class="mb-2 text-muted">Trafico Ilimitado</li>
+                              <li class="mb-2 text-muted">Play video y Yotube incluido</li>
+                          </ul>
+                          <a href="#" class="btn btn-gold">Contratar</a>
+                      </div>
+                  </div> 
+                </div>
+                <div class="col-md-4">
+                  <div class="card boder-0 mb-4">
+                      <div class="card-body p-5">
+                          <h3><span class="badge badge-secondary bg-dark text-ligth mb-2">HOGAR 90 GIGAS</span></h3>
+                          <p class="lead mb-4">Nuevo Plan Randin</p>
+                          <h2 class="mb-0">$19.990.-</h2>
+                          <p class="lead text-muted mb-4">Cargo fijo Mensual</p>
+                          <p class="lead font-weigth-bold">Navega como Quieras</p>
+                          <ul class="lead mb-5">
+                              <li class="mb-2 text-muted">90 GIGASs</li>
+                              <li class="mb-2 text-muted">Trafico Ilimitado</li>
+                              <li class="mb-2 text-muted">PNHUB y Youtube Ilimitado</li>
+                          </ul>
+                          <a href="#" class="btn btn-secondary">Contratar</a>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!--Seccion 4 Contacto-->  
+      <section class="bg-ligth-grey">
+        <div class="container">
+            <h2 id="contactoform">CONTACTO</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="blog-item position-relative rounded mb-5">
+                        <a href="#">
+                            <div class="blog-info position-absolute">
+                                <p class="text-gold mb-3">><span class="font-weight-bold">Buscanos</span>en</p>
+                                <h5 class="text-gold mb-3">Redes Sociales</h5>
+                            </div>
+                            <img src="img/contact_01.jpg" class="img-fluid rounded">
+                        </a>
+                    </div>
+                    <h6 class="mt-5">Informacion de nuestra compañia</h6>
+                    <p>Envienos su Email a <b>contacto@clavistv.cl</b></p>
+
+                </div>
+                <!--Inicio Formulario-->
+                <div class="col-md-7 offset-md-1">
+                    <h2>Formulario de Contacto</h2>
+                    <p class="lead text muted">Contáctate con nosotros y un ejecutivo gestionará tu solicitud</p>
+
+                    <form name="formulariocontacto" class="mt-6">
+                        <div class="form-group">
+                            <label for="txtNombre">Nombre Completo</label>
+                            <input type="text" name="txtNombre" class="form-control" placeholder="Ingrese su Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="txtEmail">Ingrese su Email</label>
+                            <input type="email" name="txtEmail" class="form-control" placeholder="nombre@dominio.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="txtNumero">Ingrese su Numero</label>
+                            <input type="number" name="txtNumero" class="form-control" placeholder="+569 xxx xxx xx" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="txtMensaje">Escriba su Mensaje</label>
+                            <textarea type="number" name="txtMensaje" class="form-control" placeholder="Solicito Informacion de:" required rows="5"></textarea>
+                        </div>
+                        <button type="submit" id="btnsend" value="Enviar" class="btn btn-send">Enviar</button>
+                        <button type="reset" id="btnreset" Value="Borrar" class="btn btn-secondary">Borrar</button>
+                        
+                    </form>
+
+                </div>
+            </div>
+        </div>
+      </section>
+    <!--Pie de Pagina -->
+      <footer class="bg-dark text-light py-4">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+
+                  </div>
+                  <div class="col-md-6 text-sm-right">
+                      <small>Solemne_1 Acevedo-Castillo-Salazar</small>
+                </div>
+              </div>
+          </div>
+      </footer>
+
+    
+    <!-- Optional JavaScript-->
+   
+    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>

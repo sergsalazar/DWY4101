@@ -1,0 +1,100 @@
+:root {
+    --dark          :   #1a1a1a ;
+    --white         :   #ffffff ;
+    --light-grey    :   #efefef ;
+    --gold          :   #ecd5a7 ;
+    --ivory         :   #d6f3c6 ;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+    background-color: var(--dark);
+}
+
+h1,h2,h3,h4,h5,h6, .navbar-brand{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500 !important;
+    line-height: 1,5 !important;
+}
+
+
+.bg-dark    {
+    background-color: var(--dark) !important;
+}
+
+.bg-ligth-grey{
+    background-color: var(--light-grey);
+}
+
+.bg-ligth-blue{
+    background-color: var(--ivory);
+}
+
+.bg-gold{
+    background-color: var(--gold);
+}
+
+.text-gold{
+    color: var(--gold) !important;
+}
+
+.navbar {
+    min-height: 5rem;
+}
+
+.nav-link{
+    color:  var(--white);
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+section{
+    padding: 6rem 0;
+}
+
+#slider{
+    padding:0;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+}
+
+.badge{
+    font-weight: 500;
+    padding: .5rem 1.5rem;
+    line-height: 1.5;
+}
+
+.btn{
+    padding: .5rem 1.8rem;
+    line-height: 1.5;
+}
+
+.btn-secondary{
+    background-color: var(--dark);
+}
+.btn-send{
+    background-color: var(--gold);
+}
+
+.btn-gold{
+    background-color: var(--gold);
+    color: var(--dark);
+}
+
+.form-control{
+    padding: 1.5rem;
+    font-weight: 300;
+    border: 0;
+}
+
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid var(--dark);
+}
