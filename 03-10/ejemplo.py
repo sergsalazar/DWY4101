@@ -62,3 +62,5 @@ array_string.sort() # Ordenar string de forma ascendente alfabeticamente
 print(array_string)
 array_string.sort(reverse=True) # Ordenar string de forma descendente alfabeticamente a la inversa (primero la Z)
 print(array_string)
+
+#Ajuste en el repositorio remoto
